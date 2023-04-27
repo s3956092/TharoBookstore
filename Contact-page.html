@@ -1,0 +1,65 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Huy Anh
+ID: S3956092
+Acknowledgement:  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<Head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Contact Page</title>
+</Head>
+
+<header> 
+    <a href="https://imgbox.com/LsqGRZco" target="_blank">
+    <img src="https://thumbs2.imgbox.com/6d/6b/LsqGRZco_t.png" alt="Bookstore icons created by Aranagraphics - Flaticon"/>
+    <nav class="nav">
+        <a href="Home-page.html"> Home Page</a> 
+        <a href="Fiction-page.html"> Fiction</a> 
+        <a href="Children-books-page.html"> Children's Books</a>
+    </nav>
+</header>
+
+
+<form action="" method="get">
+    <h1>Contact page</h1>
+    <label for="contact-purpose">Contact purpose:</label><br>
+    <select name="purpose" id="contact-purpose">
+        <option value="">--Pick an option--</option>
+        <option value="sell">I want to sell books</option>
+        <option value="buy">I want to buy books</option>
+    </select>
+    <br>
+    <p>Name:</p>
+    <input type="text" name="name" value="Nguyen Van A"><br>
+    <p>Phone number:</p>
+    <input type="number" name="phone number" value="0912345678"><br>
+    <p>Email:</p>
+    <input type="email" name="email" value="nguyenvana@gmail.com"><br>
+    <p>Contact preference:</p>
+    <input type="checkbox" name="method" value="By email"/>By email<br>
+    <input type="checkbox" name="method" value="By phone"/>By phone<br>
+    <p>Receive weekly newsletter:</p>
+    <input type="radio" name="option" value="Yes" checked/>Yes<br>
+    <input type="radio" name="option" value="No"/>No<br>
+    <label for="note">Extra notes:</label><br>
+    <textarea id="note" name="note" rows="10" cols="40">
+    --Do you have any notes for us?--
+    </textarea>
+    <p><input type="submit" name="submit" value="Submit"/></p>
+    <p><input type="reset" name="reset" value="Reset"/></p>
+</form>
+
+<footer>
+    <nav class="nav">
+        <a href="About-us.html"> About Us</a>
+        <a href="Privacy-policy.html"> Privacy policy</a>
+        <a href="Terms.html"> Terms</a>
+        <a href="Copyright.html"> Copyright</a> 
+        <a href="Contact-page.html"> Contact Us</a>
+    </nav>
+</footer>

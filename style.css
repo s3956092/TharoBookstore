@@ -1,0 +1,186 @@
+
+body {
+  background-color: #b9eddd;
+}
+
+header {
+  background-color: #b9eddd;
+}
+
+footer {
+  background-color: #b9eddd;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color:#87cbb9;
+    border-radius: 10px;
+    color: #577d86;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #2e5d65;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+main.img {
+  display:flex;  
+  }
+
+#bigimg {
+    width: 300px;
+    height: 306px;
+}
+
+
+#smallimg1, #smallimg2, #smallimg3 {
+    width: 100px;
+    height:100px;
+}
+
+.nav {
+  float: right;
+  background-color: #87cbb9;
+  font-family: 'vag-rounded-regular', sans-serif;
+  border-radius: 10px;
+  color: #2e5d65;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a {
+  margin: 2px;
+}
+
+
+.nav a:hover {
+  background-color: #41ac93;
+  color:#577d86;
+}
+
+.category a:hover {
+  background-color: #41ac93;
+  color:#577d86;
+}
+
+a:visited {
+  color: #2e5d65;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.bnames a {
+  margin: 5px;
+}
+
+
+* {
+  font-family: 'vag-rounded-regular', sans-serif;
+}
+
+#add-to-cart {
+  font-size: 20px;
+}
+
+
+#smallimg1:hover {
+  transform: scale(2);
+}
+
+#smallimg2:hover {
+  transform: scale(2);
+}
+
+#smallimg3:hover {
+  transform: scale(2);
+}
+
+@media only screen and (max-width:960px) {
+  #bigimg {
+    width:198px;
+    height:198px;
+  }
+  #smallimg1, #smallimg2, #smallimg3 {
+    width: 66px;
+    height:66px;
+  }
+  #smallimg1 {
+    position: relative;
+    top:200px;
+    left:-198px;
+  }
+  #smallimg2 {
+    position: relative;
+    top:200px;
+    left:-195px;
+  }
+  #smallimg3 {
+    position: relative;
+    top:200px;
+    left:-193px;
+  }
+  #name{
+    position: relative;
+    top:60px;
+    font-size: 20px;
+  }
+  #book-description {
+    position: relative;
+    top:50px;
+  }
+  .book-price {
+    font-size:10px;
+    position: relative;
+    top:40px;
+  }
+
+}
+
+@media (min-width:961px) {
+  #smallimg1 {
+    position: relative;
+    left: 2px;
+  }
+  
+  #smallimg2 {
+    position: relative;
+    right: 98px;
+    top: 102px;
+  }
+  
+  #smallimg3 {
+    position: relative;
+    right: 198px;
+    top: 204px;
+  }
+  .book-price {
+    position:relative;
+    left: 450px;
+    bottom: 430px;
+  }
+}
